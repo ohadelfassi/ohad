@@ -1,8 +1,8 @@
-sum=0
+sum = 0
 while True:
-    x=input()
-    if x=="":
-        print("result: ",sum)
+    x = input("enter a number")
+    if x == "":
+        print("result: ", sum)
         break
-    sum+=int(x)
+    sum += int(x)
 
